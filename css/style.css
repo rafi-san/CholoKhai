@@ -350,6 +350,8 @@ nav ul li a:hover {
     background: none;
     font-weight: 900;
     cursor: pointer;
+	    margin-bottom: 20px;
+
 }
 
 .left-two button:hover{
@@ -422,6 +424,8 @@ nav ul li a:hover {
     background: none;
     font-weight: 900;
     cursor: pointer;
+	    margin-bottom: 20px;
+
 }
 
 .right-one button:hover{
@@ -481,6 +485,8 @@ nav ul li a:hover {
     background: none;
     font-weight: 900;
     cursor: pointer;
+	    margin-bottom: 20px;
+
 }
 
 .right-two button:hover{
