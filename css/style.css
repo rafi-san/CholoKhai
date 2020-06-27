@@ -1,0 +1,841 @@
+/* ******************
+    Basic Setup
+******************* */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+	width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* ******************
+    Header Part
+******************* */
+header{
+    width: 100%;
+    float: left;
+    background: #080405;
+    box-shadow: 0 0 20px #3333;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-middle-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.logo-part{
+    float: left;
+    width: 20%;
+}
+
+.nav-part{
+    width: 50%;
+    float: left;
+}
+
+.social {
+	width: 20%;
+    float: left
+}
+
+.signin{
+    width: 10%;
+    float: left;
+    margin: 38px 0;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 38px 0;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 14px;
+    font-weight: 800;
+    color: #FEB800;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    border-radius: 3%;
+    border-bottom: 3px solid #FEB800;
+}
+
+.social ul{
+     list-style: none;
+}
+.social ul li{
+    display: inline-block;
+    margin: 23px 0 -2px 0;
+}
+.social ul li a{
+    text-decoration: none;
+    padding: 10px 7px;
+    color: #FEB800;
+    font-size: 42px;
+}
+
+.social ul li i:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition:  0.5s ease-in-out;
+}
+
+.signin a{
+	text-decoration: none;
+}
+.signin a button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 17px;
+    border-radius: 30px;
+    border: 2px solid #FEB800;
+    color: #FEB800;
+    background:#292933 ;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.signin a button:hover{
+    background: #FEB800;
+    color: #333;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition:  0.5s ease-in-out;
+}
+
+.logo-part img{
+    display: block;
+    margin: 0px auto;
+    height: 107px;
+}
+/* ******************
+    Hero Area
+******************* */
+
+.hero-area {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    background-size: cover;
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(0,0,0,0.4)),url(../img/1bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.heading {
+	width: 52%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    height: 185px;
+    text-align: center;
+   
+}
+
+.heading h1{
+    color: #FEB800;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Monoton', cursive;
+    line-height: 56px;
+    margin: 11px 62px;
+}
+
+.heading p {
+    color: #FEB800;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.heading a{
+
+}
+
+.btn {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 155px;
+    left: 140px;
+    
+}
+
+.btn-2 {
+	width: 25%;
+	float: left;
+}
+
+.btn-1 {
+	width: 25%;
+	float: left;
+}
+
+.cmn-btn {
+    color: #FEB800;
+    border: 2px solid #FEB800;
+    border-radius: 30px;
+    background: none;
+    margin: 10px 9px;
+    padding: 5px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.cmn-btn:hover{
+    background: #FEB800;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+    
+}
+.empty {
+	width: 48%;
+    float: left;
+}
+
+
+/* ******************
+    Service Area
+******************* */
+
+.service-area{
+    float: left;
+    width: 100%;
+    padding:140px 0;
+    background-color: #000000;
+    color: #FEB800;
+}
+
+.left-part {
+	float: left;
+    width: 50%;
+    
+}
+
+.right-part {
+	float: left;
+    width: 50%;
+}
+
+.left-one {
+	float: left;
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+}
+.left-one:hover{
+    transform: scale(1.1);
+    background: rgba(254, 184, 0, 0.13);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+.left-one img {
+    display: block;
+    margin: 10px auto;
+}
+
+.left-one h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.left-one p{
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+
+.left-one button{
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 7px 15px;
+    color: #FEB800;
+    border-radius: 30px;
+    border: 2px solid #FEB800;
+    background: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.left-one button:hover{
+    background: #FEB800;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+
+
+
+
+/***************************
+
+         left two
+
+*****************************/
+
+
+
+
+
+
+.left-two {
+	float: left;
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.left-two:hover{
+    transform: scale(1.1);
+    background: rgba(254, 184, 0, 0.13);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+.left-two img {
+    display: block;
+    margin: 10px auto;
+}
+
+.left-two h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.left-two p{
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+
+.left-two button{
+    width: 50%;
+    margin-top: 10px;
+    padding: 7px 15px;
+    color: #FEB800;
+    border-radius: 30px;
+    border: 2px solid #FEB800;
+    background: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.left-two button:hover{
+    background: #FEB800;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************
+       right-one
+***************************/
+
+
+
+.right-one {
+	float: left;
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.right-one:hover{
+    transform: scale(1.1);
+    background: rgba(254, 184, 0, 0.13);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+
+
+.right-one img {
+    display: block;
+    margin: 10px auto;
+}
+
+.right-one h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.right-one p{
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+
+.right-one button{
+    width: 50%;
+    margin-top: 10px;
+    padding: 7px 15px;
+    color: #FEB800;
+    border-radius: 30px;
+    border: 2px solid #FEB800;
+    background: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.right-one button:hover{
+    background: #FEB800;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+
+/*********************
+             rughttwo
+*****************/
+
+.right-two {
+	float: left;
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.right-twos:hover{
+    transform: scale(1.1);
+    background: rgba(254, 184, 0, 0.13);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+
+.right-two img {
+    display: block;
+    margin: 10px auto;
+}
+
+.right-two h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.right-two p{
+    font-weight: 600;
+    margin: 10px 0;
+    
+}
+
+.right-two button{
+    width: 50%;
+    margin-top: 10px;
+    padding: 7px 15px;
+    color: #FEB800;
+    border-radius: 30px;
+    border: 2px solid #FEB800;
+    background: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.right-two button:hover{
+    background: #FEB800;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+/*
+********************order-book*******************
+*/
+
+
+.order-book{
+    width: 100%;
+    float: left;
+    padding:50px 0;
+    background-color: #FEB800;
+    color: #000000; 
+}
+
+.order {
+	width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.book {
+	width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.order h2{
+    font-size: 25px;
+    margin-bottom: 19px;
+    font-weight: 800;
+}
+
+.order ul{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.order ul li{
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+.order ul li i{
+    margin-right: 10px;
+}
+.order button{
+    border-radius: 30px;
+    width: 167px;
+    font-size: 17px;
+    font-weight: 700;
+    color:  #333;
+    background: none;
+    border: 2px solid  #333;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.order button:hover{
+    background: #333;
+    color:  #FEB800;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+.book h2{
+    font-size: 25px;
+    margin-bottom: 19px;
+    font-weight: 800;
+}
+
+.book ul{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.book ul li{
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+.book ul li i{
+    margin-right: 10px;
+}
+.book button{
+    border-radius: 30px;
+    width: 167px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+    background: none;
+    border: 2px solid  #000;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.book button:hover{
+    background:#000;
+    color: #FEB800;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+
+/********************
+         whoweare
+*****************/
+
+.whoweare {
+	background: #000000;
+    color: #FEB800; 
+    float: left;
+    width: 100%;
+    padding-bottom: 48px;
+}
+.whoweare h2{
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 41px;
+    font-weight: 900;
+    margin: 35px 0;
+}
+
+
+.story {
+	float: left;
+    width: 50%;
+}
+
+.success {
+	width: 50%;
+    float: left;
+}
+
+.cmn-class {
+    padding: 11px 59px;
+    text-align: center;
+}
+
+.cmn-class button{
+    width: 30%;
+    margin-top: 10px;
+    padding: 7px 15px;
+    color: #FEB800;
+    border-radius: 30px;
+    border: 2px solid #FEB800;
+    background: none;
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+
+.cmn-class button:hover{
+     background: #FEB800;
+    color: #333;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition:  0.3s ease-in-out;
+}
+
+.cmn-class h3{
+	font-size: 25px;
+}
+
+
+/*custormer*/
+
+.customers {
+	background:#FEB800;
+    color: #000; 
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 77px 31px;
+}
+
+/*rating part*/
+
+.star{
+    background:#000;
+    color:#FEB800; 
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding: 70px 0;
+}
+
+.star h3{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.star ul{
+    list-style: none;
+}
+
+.star ul li{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.star ul li i{
+    font-size: 40px;;
+}
+
+/*Get in touch*/
+
+.get-in-touch {
+	 background: #FEB800 ;
+    color: #000; 
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 73px 0;
+}
+
+.get-in-touch ul{
+    list-style: none;
+}
+
+.get-in-touch h2{
+    font-size:30px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.get-in-touch h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.one{
+   float: left;
+    width: 20%;
+}
+
+.one:hover {
+	background: #000;
+    color:  #FEB800;
+}
+
+.two {
+    float: left;
+    width: 20%;
+}
+
+.two:hover {
+	background: #000;
+    color:  #FEB800;
+}
+.three{
+    
+     float: left;
+    width: 20%;
+}
+
+.three:hover{
+    background: #000;
+    color:  #FEB800;    
+
+}
+.four {
+	 float: left;
+    width: 20%;
+}
+
+.four:hover{
+    background: #000;
+    color:  #FEB800;
+}
+.five{
+     float: left;
+    width: 20%;
+}
+
+.five:hover{
+    background: #000;
+    color:  #FEB800;
+}
+
+
+.cmn {
+	cursor: pointer;
+    font-weight: 700;
+    padding: 20px;
+}
+
+
+/*******************
+        footer
+*********************/
+
+footer{
+    width: 100%;
+    float: left;
+    background: #000;
+    color:#FEB800; 
+    padding: 20px 0;
+}
+
+.left-footer {
+	float: left;
+    width: 50%;
+}
+
+.right-footer {
+    float: left;
+    width: 50%;
+}
+
+.left-left{
+    float: left;
+    width: 50%;
+}
+.left-left img{
+    opacity: 0;
+}
+
+.left-right {
+	float: left;
+    width: 50%;
+}
+
+.left-right p{
+    
+    text-transform: uppercase;
+}
+.right-left {
+	float: left;
+    width: 50%;
+}
+
+.right-right {
+	float: left;
+    width: 50%;
+}
+
+.right-right img{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
