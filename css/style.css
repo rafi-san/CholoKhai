@@ -445,7 +445,7 @@ nav ul li a:hover {
     border-radius: 30px;
 }
 
-.right-twos:hover{
+.right-two:hover{
     transform: scale(1.1);
     background: rgba(254, 184, 0, 0.13);
     transition: 0.3s ease-in-out;
